@@ -53,6 +53,5 @@ def get_key(data):
 
 
 if __name__ == '__main__':
-    data = get_decoded_json(
-        '/home/smint/Documents/sem2/labs/lab3/twitter_data_parsing/twitter_data.json')
+    data = get_decoded_json('twitter_data.json')
     print(get_key(data))
